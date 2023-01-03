@@ -1,0 +1,15 @@
+[package]
+name = 'decentralized-newspaper'
+version = '1.0.0'
+
+
+[addresses]
+deployer="_"
+
+[dev-addresses]
+deployer="0xC0FFEE"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
